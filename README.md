@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## .env variables
+[Adding Development Environment Variables In .env](https://facebook.github.io/create-react-app/docs/adding-custom-environment-variables#adding-development-environment-variables-in-env)
+
+```
+REACT_APP_SERVER_HOST=10.56.0.245
+REACT_APP_SERVER_PORT=5010
+REACT_APP_PROTOCOL=http
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
