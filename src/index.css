@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body, div#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/** Montserrat Regular **/
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url("~@vostokplatform/uikit/fonts/Montserrat-Regular.eot");
+  src: url("~@vostokplatform/uikit/fonts/Montserrat-Regular.eot?#iefix") format('embedded-opentype'),
+  url("~@vostokplatform/uikit/fonts/Montserrat-Regular.woff2") format("woff2"),
+  url("~@vostokplatform/uikit/fonts/Montserrat-Regular.woff") format("woff");
+}
+
+/** Montserrat Medium **/
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  src: url("~@vostokplatform/uikit/fonts/Montserrat-Medium.eot");
+  src: url("~@vostokplatform/uikit/fonts/Montserrat-Medium.eot?#iefix") format('embedded-opentype'),
+  url("~@vostokplatform/uikit/fonts/Montserrat-Medium.woff2") format("woff2"),
+  url("~@vostokplatform/uikit/fonts/Montserrat-Medium.woff") format("woff");
+}
+
+/** Montserrat Bold **/
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: url("~@vostokplatform/uikit/fonts/Montserrat-Bold.eot");
+  src: url("~@vostokplatform/uikit/fonts/Montserrat-Bold.eot?#iefix") format('embedded-opentype'),
+  url("~@vostokplatform/uikit/fonts/Montserrat-Bold.woff2") format("woff2"),
+  url("~@vostokplatform/uikit/fonts/Montserrat-Bold.woff") format("woff");
+}
+
+.ant-tabs:before, .ant-tabs:after {
+  content: "";
+  display: table;
+}

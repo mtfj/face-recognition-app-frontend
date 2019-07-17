@@ -1,0 +1,28 @@
+.FaceDetection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bigText {
+  font-weight: bold;
+  font-size: 700%;
+}
+
+.redText {
+  color: red;
+}
+
+.greenText {
+  color: green;
+}

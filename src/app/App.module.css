@@ -1,0 +1,52 @@
+.App {
+  height: 100%;
+}
+
+.svgSprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.logo {
+  position: relative;
+  margin-right: 100px;
+  width: 120px;
+  height: 70px;
+  top: -14px;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layoutLeftSide {
+  display: flex;
+}
+
+.pageContent {
+}
+
+.Form {
+  width: 30%;
+  margin-top: 110px;
+}
+
+.formActions {
+  display: flex;
+}
+
+.formActions .v-btn-wrapper .ant-btn {
+  margin-right: 40px;
+}
+
+.formSubmitButton {
+  margin-right: 20px;
+}
+
+.fullScreenModeButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

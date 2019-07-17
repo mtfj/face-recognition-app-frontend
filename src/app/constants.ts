@@ -1,0 +1,14 @@
+let BASE_URL = '';
+
+const REACT_APP_SERVER_HOST = process.env.REACT_APP_SERVER_HOST;
+const REACT_APP_SERVER_PORT = process.env.REACT_APP_SERVER_PORT;
+const REACT_APP_PROTOCOL = process.env.REACT_APP_PROTOCOL || 'http';
+
+if (
+  REACT_APP_SERVER_HOST !== null && REACT_APP_SERVER_HOST !== undefined && REACT_APP_SERVER_HOST !== '' &&
+  REACT_APP_SERVER_PORT !== null && REACT_APP_SERVER_PORT !== undefined && REACT_APP_SERVER_PORT !== ''
+) {
+  BASE_URL = `${REACT_APP_PROTOCOL}://${REACT_APP_SERVER_HOST}:${REACT_APP_SERVER_PORT}`
+}
+
+export { BASE_URL }

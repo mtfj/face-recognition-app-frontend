@@ -1,0 +1,19 @@
+.EmployeesByDay {
+
+}
+
+.pageTitle {
+  text-transform: uppercase;
+}
+
+.Visits {
+  padding-top: 20px;
+}
+
+.visit {
+  display: flex;
+}
+
+.visitTime {
+  margin-left: 70px;
+}
